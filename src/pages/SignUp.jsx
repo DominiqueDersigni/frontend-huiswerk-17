@@ -1,7 +1,9 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
+import React from 'react';
 
 function SignUp() {
+
+
   return (
     <>
       <h1>Registreren</h1>
@@ -9,7 +11,19 @@ function SignUp() {
         harum, numquam, placeat quisquam repellat rerum suscipit ullam vitae. A ab ad assumenda, consequuntur deserunt
         doloremque ea eveniet facere fuga illum in numquam quia reiciendis rem sequi tenetur veniam?</p>
       <form>
-        <p>*Invoervelden*</p>
+          <label>
+              gebruikersnaam
+              <input type="text" id="username" name="username" />
+          </label>
+          <label>
+              e-mail adres
+              <input type="email" id="emailadres" name="emailadres" />
+          </label>
+          <label>
+              wachtwoord
+              <input type="password" id="wachtwoord" name="wachtwoord"/>
+          </label>
+          <button>Registreren</button>
       </form>
       <p>Heb je al een account? Je kunt je <Link to="/signin">hier</Link> inloggen.</p>
     </>

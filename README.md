@@ -60,7 +60,7 @@ const [isAuth, toggleIsAuth] = useState(false);
 * Wanneer de gebruiker op de _uitlog_-knop drukt, wordt de `logout`-functie uit de context aangeroepen. Deze functie
   doet het volgende:
     * Zet de state op `false`;
-    * Logt 'Gebruiker is uitgelogd!' in de console
+    * Logt 'Gebruiker is uitgelogd!' in de co[.gitignore](.gitignore)nsole
     * Stuurt de gebruiker door naar de homepagina
 
 ## Stappenplan
